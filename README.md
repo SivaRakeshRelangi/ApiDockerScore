@@ -13,7 +13,7 @@ This API returns a score between `0` and `1`, where:
 
 > 🔗 [https://rsrlearner-semanticvaluebetweentwotexts.hf.space/predict](https://rsrlearner-semanticvaluebetweentwotexts.hf.space/predict)
 ---
-![Apiscoretest](Apiscoretest.png)
+![Apiscoretest](Endpointdemo.png)
 ## 📦 Features
 
 - ✅ Semantic similarity using Sentence-BERT
