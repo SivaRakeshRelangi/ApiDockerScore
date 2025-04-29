@@ -1,7 +1,7 @@
 # 🧠 Semantic Text Similarity API 
 Deployed Link on Hugging Face : [https://rsrlearner-semanticvaluebetweentwotexts.hf.space/](https://rsrlearner-semanticvaluebetweentwotexts.hf.space/)
 
-A lightweight Flask-based REST API that computes the **semantic similarity** between two text inputs using a pre-trained SentenceTransformer model (`paraphrase-MiniLM-L3-v2`). 
+A lightweight Flask-based REST API that calculates the semantic similarity between two text inputs using the SentenceTransformer model: paraphrase-MiniLM-L3-v2. 
 
 This API returns a score between `0` and `1`, where:
 - `1.0` means the texts are **highly similar**
@@ -17,10 +17,11 @@ This API returns a score between `0` and `1`, where:
 ## 📦 Features
 
 - ✅ Semantic similarity using Sentence-BERT
-- ✅ REST API with Flask
+- ✅ Built with Flask REST API
 - ✅ Lightweight model for fast deployment (`paraphrase-MiniLM-L3-v2`)
-- ✅ Free deployment on Hugging FAce spaces
-- ✅ Supports POST request with clean JSON interface
+- ✅ Deployed for free on Hugging Face Spaces using Docker
+- ✅ Accepts POST requests with JSON input
+- ✅ Returns fast and accurate similarity score
 
 ---
 
