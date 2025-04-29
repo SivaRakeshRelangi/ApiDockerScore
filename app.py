@@ -1,10 +1,12 @@
+
 # Flask API for predictionscore
 from flask import Flask, request, jsonify
 from sentence_transformers import SentenceTransformer, util
 app = Flask(__name__)
 
 # Load pre-trained Sentence-BERT model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+# model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 
 def compute_similarity(text1, text2):
     # Encode the input texts into embeddings (numerical vector representations)
@@ -30,5 +32,5 @@ def predict():
     return jsonify({"similarity score": similarity_score})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=7860, debug=True)
     

@@ -1,6 +1,4 @@
-Flask
+flask
 sentence-transformers
 torch
 gunicorn
-
-
