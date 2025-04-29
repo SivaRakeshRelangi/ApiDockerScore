@@ -28,7 +28,7 @@ This API returns a score between `0` and `1`, where:
 ## 📥 API Usage
 
 ### `POST /predict`
-Use POST Method and ENDPOINT API --> https://similaritytextscorerender.onrender.com/predict
+Use POST Method and ENDPOINT API --> https://rsrlearner-semanticvaluebetweentwotexts.hf.space/predict
 
 **Request:**
 
