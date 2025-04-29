@@ -1,9 +1,5 @@
-## Please note: Due to Render's free-tier limitations, the server may return a 502 error if accessed after long inactivity. If so, kindly wait up to 1–2 minutes and refresh — the app should respond once fully reactivated.
-**Important Note:** The deployed link may be sleeping on the Render platform. Please allow up to 5 minutes for the server to "wake up" and become fully operational when the link is accessed.
-
-
 # 🧠 Semantic Text Similarity API 
-Deployed Link on Hugging Face : [https://similaritytextscorerender.onrender.com/](https://similaritytextscorerender.onrender.com/)
+Deployed Link on Hugging Face : [https://rsrlearner-semanticvaluebetweentwotexts.hf.space/](https://rsrlearner-semanticvaluebetweentwotexts.hf.space/)
 
 A lightweight Flask-based REST API that computes the **semantic similarity** between two text inputs using a pre-trained SentenceTransformer model (`paraphrase-MiniLM-L3-v2`). 
 
